@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "JUNER"
+			}
+		}
+	    ,{
+            "path" : "pages/movie/movie",
+            "style" : {
+				 "enablePullDownRefresh": true,
+				 "navigationBarTitleText": "JUNER电影"
+				 
+			}
+        }
+        ,{
+            "path" : "pages/cinema/cinema",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "JUNER影院"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+ 
+        ,{
+            "path" : "pages/rank/rank",
+            "style" : {
+				"navigationBarTitleText": "实时排行"
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "影片详情"
+			}
+        }
+    
+        ,{
+            "path" : "pages/location/location",
+            "style" : {
+				"navigationBarTitleText": "定位"
+			}
+        }
+        ,{
+            "path" : "pages/newsDetail/newsDetail",
+            "style" : {
+				"navigationBarTitleText": "新闻详情"
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText": "搜索"
+			}
+        }
+        ,{
+            "path" : "pages/cities/cities",
+            "style" : {
+				"navigationBarTitleText": "城市"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationStyle":"default",
+		"navigationBarBackgroundColor": "#e54847",
+		"backgroundColor": "#e54847"
+		
+	},
+	"tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#e54847",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/lj.png",
+        "selectedIconPath": "static/image/lj1.png",
+        "text": "JUNER"
+    }, {
+        "pagePath": "pages/movie/movie",
+        "iconPath": "static/image/movie.png",
+        "selectedIconPath": "static/image/movie1.png",
+        "text": "电影"
+    },{
+        "pagePath": "pages/cinema/cinema",
+        "iconPath": "static/image/cinema.png",
+        "selectedIconPath": "static/image/cinema1.png",
+        "text": "影院"
+    },
+	{
+	    "pagePath": "pages/mine/mine",
+	    "iconPath": "static/image/mine.png",
+	    "selectedIconPath": "static/image/mine1.png",
+	    "text": "我的"
+	}	
+	]
+}
+	
+}
